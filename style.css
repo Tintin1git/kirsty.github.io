@@ -101,30 +101,6 @@ h1 {
     transform: scale(1.03);
 }
 
-.skill-card {
-    background: rgba(30, 41, 59, 0.5); 
-    border: 1px solid rgba(0, 188, 212, 0.1);
-    border-radius: 12px;
-    padding: 2.5rem 1.5rem;
-    text-align: center;
-    
-    /*ALIGNMENT */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start; /* Keeps icons at the top */
-    min-height: 320px; /* Forces all cards to be the same height */
-    height: 100%; /* Ensures they fill the grid row evenly */
-}
-
-.skill-card p {
-    color: #94a3b8;
-    font-size: 0.9rem;
-    line-height: 1.6;
-    margin-top: auto; /* Pushes text to a consistent starting point */
-    margin-bottom: auto; /* Centers text vertically in the remaining space */
-}
-
 /* 4. PROJECT GALLERY BUTTONS */
 .gallery-grid {
   display: grid;
