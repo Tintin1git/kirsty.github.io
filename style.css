@@ -20,15 +20,14 @@ h1 {
 /* Container to align them horizontally */
 .button-group {
   display: flex;
-  justify-content: center; /* Centers them under your name */
-  gap: 15px;               /* Space between the buttons */
-  margin-top: 15px;
+  justify-content: center; 
+  gap: 15px;               
 }
 
-/* The Button Styling (Match this to your current Download CV style) */
+/* The Button Styling */
 .btn-main {
-  background-color: #00bcd4; /* Your cyan color */
-  color: #000;              /* Black text */
+  background-color: #00bcd4; 
+  color: #000;              
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
@@ -46,38 +45,6 @@ h2 {
   color: #38bdf8;
 }
 
-/* GALLERY */
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 15px;
-}
-
-.card {
-  background: #1e293b;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-/* FOOTER */
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #1e293b;
-}
-
-/* ANIMATION */
-.fade-in {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: all 1s ease;
-}
-
-.fade-in.show {
-  opacity: 1;
-  transform: translateY(0);
-}
 /* Container Layout */
 .skills-grid {
   display: grid;
@@ -120,6 +87,39 @@ footer {
   font-size: 0.9rem;
   line-height: 1.5;
   color: #ccc;
+/* GALLERY */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1e293b;
+}
+
+/* ANIMATION */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s ease;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 }
 /* Reduce space between the "About Me" and "Skills" sections */
 section {
@@ -129,16 +129,16 @@ section {
 
 /* Reduce space specifically between the Title and the Boxes */
 h2 {
-  margin-bottom: 15px;  /* Tightens the gap under the "Skills & Expertise" text */
+  margin-bottom: 15px;  
 }
 
 /* Reduce the space between the boxes themselves */
 .skills-grid {
-  gap: 15px;            /* Decreasing this makes boxes sit closer together */
-  padding: 10px 0;      /* Reduces vertical padding of the grid area */
+  gap: 15px;            
+  padding: 10px 0;     
 }
 
 /* Reduce internal padding inside each box */
 .skill-card {
-  padding: 15px;        /* Makes the boxes more compact */
+  padding: 15px;       
 }
