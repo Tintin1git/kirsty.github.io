@@ -60,7 +60,7 @@ h1 {
   box-shadow: 0 8px 15px rgba(0, 188, 212, 0.3);
 }
 
-/* 3. SKILLS GRID (FORCED 3 PER ROW) */
+/* 3. SKILLS GRID  */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -87,6 +87,20 @@ h1 {
   display: block;
   margin-bottom: 10px;
 }
+.skill-card {
+    background: rgba(30, 41, 59, 0.4); /* Translucent */
+    backdrop-filter: blur(12px); /* Frosted glass effect */
+    border: 1px solid rgba(0, 188, 212, 0.2); /* Faint Cyan border */
+    padding: 2.5rem;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.skill-card:hover {
+    border-color: #00bcd4;
+    box-shadow: 0 0 30px rgba(0, 188, 212, 0.2);
+    transform: scale(1.03);
+}
+
 
 /* 4. PROJECT GALLERY BUTTONS */
 .gallery-grid {
