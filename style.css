@@ -6,17 +6,17 @@ body {
   line-height: 1.6;
 }
 
-/* THE "FIX": This centers everything and stops the wideness */
+/* Container */
 .container {
-  max-width: 1000px; /* Limits width */
-  margin: 0 auto;    /* Centers the box */
-  padding: 0 20px;   /* Padding for mobile */
+  max-width: 1000px; 
+  margin: 0 auto;    
+  padding: 0 20px;   
 }
 
 /* HERO SECTION */
 .hero {
   text-align: center;
-  padding: 60px 20px; /* Reduced padding to save space */
+  padding: 60px 20px; 
   background: #1e293b;
 }
 
@@ -30,7 +30,7 @@ h1 {
   display: flex;
   justify-content: center; 
   gap: 15px;
-  flex-wrap: wrap; /* Allows stacking on small screens */
+  flex-wrap: wrap; 
   margin-top: 20px;
 }
 
@@ -56,14 +56,12 @@ h2 {
   margin-bottom: 15px;
 }
 
-/* SKILLS GRID - FIXED */
+/* SKILLS GRID */
 .skills-grid {
   display: grid;
-  /* Fixed columns: they stay between 280px and 350px wide */
-  grid-template-columns: repeat(auto-fit, minmax(280px, 350px)); 
-  justify-content: center; 
-  gap: 15px;            
-  padding: 20px 0;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+  gap: 20px;
+  justify-content: center;
 }
 
 /* SKILL CARDS */
